@@ -1,5 +1,4 @@
-FROM n8nio/n8n:1.18.1
-USER root
+FROM n8nio/n8n:nightly
 ARG PGPASSWORD
 ARG PGHOST
 ARG PGPORT
